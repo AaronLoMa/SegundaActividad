@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SegundaActivdad</string>
+    <string name="Nombretxt">Nombre Completo</string>
+    <string name="Telefonotxt">Telefono</string>
+    <string name="Correotxt">Email</string>
+    <string name="Descripciontxt">Descripcion contacto</string>
+    <string name="botonSiguiente">Siguiente</string>
+    <string name="Prueba">Prueba</string>
+    <string name="Nombre2">Nombre:</string>
+    <string name="Telefono2">Telefono:</string>
+    <string name="Correo2">Email:</string>
+    <string name="Descripcion2">Descipcion:</string>
+    <string name="Editar">Editar:</string>
+    <string name="Fecha">Fecha:</string>
+</resources>

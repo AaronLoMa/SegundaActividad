@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MostrarDatos">
+
+
+    <TextView
+        android:id="@+id/Nombre2"
+
+        android:layout_width="250dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="16dp"
+        android:layout_x="10dp"
+        android:layout_y="60dp"
+        android:hint="@string/Nombre2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Nombre2b"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:hint="@string/Nombre2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Cal2"
+        android:layout_width="250dp"
+        android:layout_marginEnd="16dp"
+
+        android:layout_height="16dp"
+        android:layout_marginTop="112dp"
+
+        android:layout_x="102dp"
+        android:layout_y="106dp"
+        android:hint="@string/Fecha"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Cal2b"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:layout_x="102dp"
+        android:layout_y="106dp"
+        android:hint="@string/Fecha"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Telefono2"
+        android:layout_width="250dp"
+        android:layout_marginEnd="16dp"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+
+        android:layout_x="30dp"
+        android:layout_y="258dp"
+        android:hint="@string/Telefono2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Cal2" />
+
+    <TextView
+        android:id="@+id/Telefono2b"
+        android:layout_width="61dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="28dp"
+        android:layout_x="30dp"
+        android:layout_y="258dp"
+        android:hint="@string/Telefono2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Cal2b" />
+
+    <TextView
+        android:id="@+id/Correo2"
+        android:layout_width="250dp"
+        android:layout_marginEnd="16dp"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+
+        android:layout_x="35dp"
+        android:layout_y="204dp"
+        android:hint="@string/Correo2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Telefono2" />
+
+    <TextView
+        android:id="@+id/Correo2b"
+        android:layout_width="57dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="28dp"
+        android:layout_x="35dp"
+        android:layout_y="204dp"
+        android:hint="@string/Correo2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Telefono2b" />
+
+    <TextView
+        android:id="@+id/Descripcion2"
+        android:layout_width="250dp"
+        android:layout_marginEnd="16dp"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+
+        android:layout_x="5dp"
+        android:layout_y="102dp"
+        android:hint="@string/Descripcion2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Correo2" />
+
+    <TextView
+        android:id="@+id/Descripcion2b"
+        android:layout_width="76dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="24dp"
+        android:layout_x="5dp"
+        android:layout_y="102dp"
+        android:hint="@string/Descripcion2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Correo2b" />
+
+    <Button
+        android:id="@+id/Editar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="-5dp"
+        android:layout_y="424dp"
+        android:hint="@string/Editar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-52dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
