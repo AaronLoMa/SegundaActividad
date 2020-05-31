@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="2dp">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="417dp"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        app:boxBackgroundMode="outline"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Nombre1"
+            android:layout_width="418dp"
+            android:layout_height="43dp"
+            android:hint="@string/Nombretxt"
+            android:inputType="text"
+
+
+            />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <DatePicker
+        android:id="@+id/dpEd"
+        android:layout_width="417dp"
+        android:layout_height="66dp"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:orientation="horizontal" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="416dp"
+        android:layout_height="40dp"
+        android:inputType="text"
+        app:boxBackgroundMode="outline"
+        app:errorEnabled="true"
+
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Telefono1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="@string/Telefonotxt"
+            android:inputType="numberDecimal|text" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="423dp"
+        android:layout_height="43dp"
+        app:boxBackgroundMode="outline"
+        app:errorEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Correo1"
+            android:layout_width="420dp"
+            android:layout_height="43dp"
+            android:hint="@string/Correotxt"
+            android:inputType="text" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="445dp"
+        android:layout_height="44dp"
+        app:boxBackgroundMode="outline"
+        app:errorEnabled="true"
+
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/Descripcion1"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:hint="@string/Descripciontxt"
+            android:inputType="text" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/Siguiente"
+        android:layout_width="731dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="17dp"
+        android:hint="@string/botonSiguiente" />
+</LinearLayout>
+
